@@ -1,0 +1,11 @@
+[
+  {
+    "id": "AGENT-001",
+    "category": "tool_use",
+    "goal": "Look up a refund policy and answer with the return window only.",
+    "allowed_tools": ["knowledge_search"],
+    "expected_tool_calls": ["knowledge_search"],
+    "must_include": ["14 days"],
+    "must_not_include": ["30 days"]
+  }
+]

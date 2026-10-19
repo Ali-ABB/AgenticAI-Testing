@@ -1,0 +1,17 @@
+{
+  "name": "agenticai-testing-framework",
+  "version": "1.0.0",
+  "description": "Independent Agentic AI evaluation framework (Playwright + TypeScript)",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": ["agentic-ai", "playwright", "evaluation"],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^22.20.2",
+    "dotenv": "^18.0.4"
+  }
+}
